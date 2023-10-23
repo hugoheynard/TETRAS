@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <title>TETRAS</title>
+    </head>
+
+    <body>
+        <table id="container">
+            <td id="info">
+                <table id='trInfo'>
+                    <tr>
+                        <th id="logo">TETRAS</th>
+                    </tr>
+                    <tr>
+                        <th>CONTROLS</th>
+                        <tr>
+                            <td><ul id='controls'>
+                                <li>Enter: Start</li>
+                                <li>Left Arrow: Left</li>
+                                <li>Right Arrow: Right</li>
+                                <li>Down Arrow: Speed</li>
+                                <li>Q: Rotate Left</li>
+                                <li>D: Rotate Right</li>
+                                <li>S: Direct Hit</li>
+                            </ul> </td>
+                        </tr>         
+                    </tr>
+                    <tr id='nextPiece'>
+                        <td >
+                            <tr>
+                                <th>NEXT PIECE</th>
+                            </tr>
+                            <tr>
+                                <td><table id="nextPiecePreview"></table></td>
+                            </tr>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>LINES COMPLETED</th>
+                        <tr>
+                            <td id="lines" class="numbers"></td>
+                        </tr>
+                    </tr>
+                    <tr>
+                        <th>SCORE</th>
+                        <tr>
+                            <td id="score" class="numbers"></td>
+                        </tr>
+                    </tr>
+                </table>
+            </td>
+            <td>
+                <table id='terrain'></table>   
+            </td>
+        </table>
+        <script src="script.js"></script> 
+    </body>
+</html>

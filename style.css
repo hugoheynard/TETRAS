@@ -1,0 +1,112 @@
+body {
+    background-color: rgb(29, 28, 30);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    font-family: monospace;
+}
+
+#container {
+    
+    border: 10px solid rgb(197, 195, 190);
+    border-collapse: collapse; 
+    margin: auto;
+    height: 600px;
+}
+#info {
+    background-color: rgb(219, 236, 240);
+    width: 200px;
+}
+
+#trInfo {
+    height: 80%;
+    width: 100%;
+}
+#logo {
+    font-size: 50px;
+    text-align: center;
+}
+
+
+.numbers {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#start {
+    margin-left: 40%;
+}
+
+#terrain {
+    width: 100%;
+    height : 100%;
+    background-color: antiquewhite;
+    background: radial-gradient(#91ecef, #085f92);  
+    border-collapse: collapse; 
+}
+#nextPiecePreview {
+    margin-left: 25%;
+    height : 100px;
+    width : 100px;
+}
+
+.block {
+    width:40px;
+    height:40px;
+}
+
+.miniblock {
+    width:20px;
+    height:20px;
+}
+
+.gameBlock {
+    box-shadow: inset 0.2em 0.2em 0.2em 0 rgba(255,255,255,0.5), inset -0.2em -0.2em 0.2em 0 rgba(0,0,0,0.5);
+}
+
+
+
+/*CLASSES PIECES*/
+.empty {
+    background-color: rgb(64, 63, 68);
+    opacity: 0.8;
+}
+.previewPiece {
+    background-color: rgb(95, 94, 100);
+}
+
+.I {
+    background-color: rgb(25, 202, 202);
+    background: radial-gradient(#91ecef, #08926d);
+}
+
+.O {
+    background-color: rgb(232, 206, 15);
+    background: radial-gradient(#e7d725, #a17608);
+}
+
+.T {
+    background-color: rgb(234, 119, 234);
+    background: radial-gradient(#d95ae5, #aa169e);
+}
+
+.L {
+    background-color: rgb(244, 142, 7);
+    background: radial-gradient(#e5965a, #aa4216);
+}
+
+.J {
+    background-color: rgb(39, 83, 227);
+    background: radial-gradient(#91bbef, #083192);
+}
+
+.Z {
+    background-color: rgb(231, 16, 16);
+    background: radial-gradient(#e55a5a, #aa1616);
+}
+
+.S {
+    background-color: rgb(24, 200, 24);
+    background: radial-gradient(#84e55a, #36aa16);
+}
